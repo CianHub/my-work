@@ -6,14 +6,17 @@
     "ajv": "^6.5.4",
     "bootstrap": "^4.1.3",
     "jquery": "^3.3.1",
+    "particles.js": "^2.0.0",
     "popper.js": "^1.14.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-particles-js": "^2.3.0",
     "react-scripts": "1.1.5",
     "reactstrap": "^6.4.0",
     "scss": "^0.2.4"
   },
   "scripts": {
+    "build-css": "node-sass --include-path scss src/main.scss src/App.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

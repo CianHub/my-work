@@ -1,5 +1,10 @@
+//.....Nav
+
 nav {
-  z-index: 99; }
+  z-index: 99;
+}
+
+//.....Jumbo
 
 #jumbo {
   position: relative;
@@ -8,18 +13,23 @@ nav {
   z-index: 98;
   padding-top: 10%;
   height: 80vh;
+
   display: flex;
-  align-items: center; }
+  align-items: center;
+}
 
 #jumbotron-button {
   background-color: transparent;
-  border: 2px solid #fff; }
+  border: 2px solid #fff;
+}
 
 .jumbo-btn-div {
-  padding-top: 2em; }
+  padding-top: 2em;
+}
 
 .jumbo-name {
-  color: #60b660; }
+  color: #60b660;
+}
 
 .jumbo-animation {
   background-color: #222222;
@@ -29,4 +39,5 @@ nav {
   bottom: 0;
   left: 0;
   z-index: 0;
-  height: 100vh; }
+  height: 100vh;
+}

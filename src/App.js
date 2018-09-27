@@ -7,8 +7,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navsection />
         <Jumbosection />
+        <Navsection />
+        <div className="test">
+          <p>Lorem</p>
+        </div>
       </div>
     );
   }

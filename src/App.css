@@ -1,19 +1,32 @@
+.App {
+  height: 100%; }
+
+.test {
+  padding-top: 5em;
+  height: 100vh;
+  background-color: white; }
+
 nav {
-  z-index: 99; }
+  z-index: 99;
+  padding-bottom: 1em; }
 
 #jumbo {
   position: relative;
   color: white;
   background-color: transparent;
-  z-index: 98;
-  padding-top: 10%;
-  height: 80vh;
+  z-index: 99;
+  height: 100vh;
   display: flex;
   align-items: center; }
 
-#jumbotron-button {
+#jumbo-button {
   background-color: transparent;
   border: 2px solid #fff; }
+
+#jumbo-button:hover {
+  background-color: #fff;
+  color: black;
+  transition: 500ms ease-in-out; }
 
 .jumbo-btn-div {
   padding-top: 2em; }
@@ -28,5 +41,11 @@ nav {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 0;
+  top: 0;
+  z-index: -1; }
+
+#jumbo-text {
+  font-size: 2em; }
+
+.jumbosection {
   height: 100vh; }

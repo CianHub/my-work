@@ -34,11 +34,12 @@ export default class Navsection extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Cian O'Gralaigh</NavbarBrand>
+        <Navbar id="nav-bg" color="dark" dark expand="md">
+          <NavbarBrand href="/">Home</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
+
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className=" ml-auto" navbar>
               <NavItem>
                 <NavLink href="#">About</NavLink>
               </NavItem>

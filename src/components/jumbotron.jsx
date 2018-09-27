@@ -5,7 +5,7 @@ export default class Jumbosection extends Component {
   state = {};
   render() {
     return (
-      <div className="text-center  ">
+      <div className="jumbosection text-center ">
         <div className="container">
           <Particles
             className="jumbo-animation"
@@ -124,7 +124,7 @@ export default class Jumbosection extends Component {
         <div className="jumbotron" id="jumbo">
           <div className="overlay container">
             <div className="jumbo-heading">
-              <h1 className="display-4">
+              <h1 className="" id="jumbo-text ">
                 Hello I'm <b className="jumbo-name">Cian O'Gralaigh</b> <br />
                 and I'm a full-stack web developer.
               </h1>
@@ -133,7 +133,7 @@ export default class Jumbosection extends Component {
               <button
                 type="button"
                 className="btn btn-success"
-                id="jumbotron-button"
+                id="jumbo-button"
               >
                 See My Work
               </button>

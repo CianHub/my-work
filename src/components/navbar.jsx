@@ -34,24 +34,43 @@ export default class Navsection extends React.Component {
   render() {
     return (
       <div>
-        <Navbar id="nav-bg" color="dark" dark expand="md">
-          <NavbarBrand href="/">Home</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className=" ml-auto" navbar>
-              <NavItem>
-                <NavLink href="#">About</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#">Projects</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#">Contact</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
+        <nav className="navbar navbar-expand-lg navbar-light " id="mainNav">
+          <div className="container">
+            <a className="navbar-brand js-scroll-trigger" href="#page-top">
+              Home
+            </a>
+            <button
+              className="navbar-toggler navbar-toggler-right"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarResponsive"
+              aria-controls="navbarResponsive"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon" />
+            </button>
+            <div className="collapse navbar-collapse" id="navbarResponsive">
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item">
+                  <a className="nav-link js-scroll-trigger" href="#about">
+                    About
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link js-scroll-trigger" href="#portfolio">
+                    Project
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link js-scroll-trigger" href="#contact">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     );
   }

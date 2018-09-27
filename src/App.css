@@ -1,18 +1,95 @@
-.App {
-  height: 100%; }
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  height: 100%;
+  font-family: "Montserrat" !important; }
 
-.test {
+.aboutsection {
   padding-top: 5em;
-  height: 100vh;
-  background-color: white; }
+  height: 100%;
+  background-color: #fff;
+  padding-bottom: 5em; }
+
+.text-primary {
+  color: #db504a !important; }
+
+.btn {
+  font-weight: 700;
+  border: none;
+  border-radius: 300px; }
+
+.btn-xl {
+  padding: 1rem 2rem; }
+
+.btn-primary {
+  background-color: #db504a;
+  border-color: #db504a; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #d73b35 !important; }
+  .btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
 
 nav {
   z-index: 99;
   padding-bottom: 1em; }
 
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff; }
+  #mainNav .navbar-brand {
+    font-weight: 700;
+    color: #db504a; }
+    #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #db504a; }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212529; }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+      color: #db504a; }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+      color: #db504a !important;
+      background-color: transparent; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+        background-color: transparent; }
+  @media (min-width: 992px) {
+    #mainNav {
+      border-color: transparent;
+      background-color: transparent; }
+      #mainNav .navbar-brand {
+        color: rgba(255, 255, 255, 0.7); }
+        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+          color: #fff; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link {
+        padding: 0.5rem 1rem; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: rgba(255, 255, 255, 0.7); }
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+          color: #fff; }
+      #mainNav.navbar-shrink {
+        border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+        background-color: #fff; }
+        #mainNav.navbar-shrink .navbar-brand {
+          color: #db504a; }
+          #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+            color: #db504a; }
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+          color: #212529; }
+          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+            color: #db504a; } }
+
 #jumbo {
   position: relative;
-  color: white;
+  color: #fff;
   background-color: transparent;
   z-index: 99;
   height: 100vh;
@@ -21,21 +98,42 @@ nav {
 
 #jumbo-button {
   background-color: transparent;
-  border: 2px solid #fff; }
+  border: 2px solid #fff;
+  transition: all 0.5s;
+  color: white; }
 
 #jumbo-button:hover {
   background-color: #fff;
-  color: black;
-  transition: 500ms ease-in-out; }
+  color: black; }
+
+.arrow {
+  transition: all; }
+
+#jumbo-button:hover > .arrow {
+  transform: rotateZ(90deg); }
 
 .jumbo-btn-div {
   padding-top: 2em; }
 
 .jumbo-name {
-  color: #60b660; }
+  color: #ffffff; }
 
 .jumbo-animation {
-  background-color: #222222;
+  background: linear-gradient(180deg, #153243, #db504a);
+  background-size: 400% 400%;
+  /*animation: AnimationName 10s ease infinite;
+
+  @keyframes AnimationName {
+    0% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 90%% 10%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }*/
   position: fixed;
   top: 3.5em;
   right: 0;
@@ -49,3 +147,19 @@ nav {
 
 .jumbosection {
   height: 100vh; }
+
+.service-box {
+  max-width: 400px; }
+
+.about-icon {
+  color: #1f7a8c; }
+
+.progress-bar {
+  background-color: #1f7a8c !important; }
+
+img {
+  border-radius: 50%;
+  margin: 10px;
+  border: 10px solid #153243;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75); }

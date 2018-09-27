@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Particles from "react-particles-js";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class Jumbosection extends Component {
   state = {};
@@ -12,26 +13,27 @@ export default class Jumbosection extends Component {
             params={{
               particles: {
                 number: {
-                  value: 80,
+                  value: 90,
+
                   density: {
-                    enable: true,
-                    value_area: 800
+                    enable: false,
+                    value_area: 1000
                   }
                 },
                 color: {
-                  value: "#b9b1a6"
+                  value: ["#1F7A8C", "#E3B505", "#BFDBF7"]
                 },
                 shape: {
-                  type: "circle",
+                  type: ["circle", "polygon"],
                   stroke: {
                     width: 0,
-                    color: "#000000"
+                    color: "#ffffff"
                   },
                   polygon: {
                     nb_sides: 5
                   },
                   image: {
-                    src: "img/github.svg",
+                    src: "https://ubisafe.org/images/bubble-transparent-6.png",
                     width: 100,
                     height: 100
                   }
@@ -43,14 +45,14 @@ export default class Jumbosection extends Component {
                     enable: false,
                     speed: 1,
                     opacity_min: 0.1,
-                    sync: false
+                    sync: true
                   }
                 },
                 size: {
-                  value: 12.02559045649142,
-                  random: true,
+                  value: 10,
+                  random: false,
                   anim: {
-                    enable: true,
+                    enable: false,
                     speed: 9.744926547616142,
                     size_min: 0.1,
                     sync: true
@@ -58,7 +60,7 @@ export default class Jumbosection extends Component {
                 },
                 line_linked: {
                   enable: true,
-                  distance: 150,
+                  distance: 130,
                   color: "#ffffff",
                   opacity: 0.4,
                   width: 1
@@ -67,7 +69,7 @@ export default class Jumbosection extends Component {
                   enable: true,
                   speed: 6,
                   direction: "top-right",
-                  random: true,
+                  random: false,
                   straight: true,
                   out_mode: "out",
                   bounce: false,
@@ -124,18 +126,16 @@ export default class Jumbosection extends Component {
         <div className="jumbotron" id="jumbo">
           <div className="overlay container">
             <div className="jumbo-heading">
-              <h1 className="" id="jumbo-text ">
-                Hello I'm <b className="jumbo-name">Cian O'Gralaigh</b> <br />
+              <h1 className="display-4" id="jumbo-text ">
+                Hi, I'm
+                <strong className="jumbo-name"> Cian O'Gralaigh</strong> <br />
                 and I'm a full-stack web developer.
               </h1>
             </div>
             <div className="jumbo-btn-div">
-              <button
-                type="button"
-                className="btn btn-success"
-                id="jumbo-button"
-              >
-                See My Work
+              <button type="button" className="btn " id="jumbo-button">
+                See My Work {"  "}
+                <FontAwesomeIcon className="arrow" icon="arrow-right" />
               </button>
             </div>
           </div>

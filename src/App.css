@@ -1,31 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
   height: 100%;
+  width: 100%;
   font-family: "Montserrat" !important; }
 
 .aboutsection {
   padding-top: 5em;
   height: 100%;
   background-color: #fff;
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75); }
 
 .projectsection {
   padding-top: 5em;
   height: 100%;
   background-color: #e9ecef;
+  padding-bottom: 5em;
+  box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75); }
+
+.contactsection {
+  padding-top: 2em;
+  height: 80%;
+  background-color: #153243;
+  width: 100%;
   padding-bottom: 2em; }
-
-.footersection {
-  padding-top: 5em;
-  height: 100%;
-  background-color: #153243;
-  padding-bottom: 5em; }
-
-.socialsection {
-  padding-top: 5em;
-  height: 100%;
-  background-color: #153243;
-  padding-bottom: 5em; }
 
 .text-primary {
   color: #db504a !important; }
@@ -172,6 +170,13 @@ nav {
 .about-icon {
   color: #1f7a8c; }
 
+.test-icon {
+  color: #fff; }
+
+#cv-download {
+  color: #1f7a8c;
+  text-decoration: underline; }
+
 .progress-bar {
   background-color: #1f7a8c !important; }
 
@@ -216,8 +221,97 @@ img {
 label {
   color: #fff; }
 
-.footer-header {
+.contact-header {
   color: white; }
 
 .white-hr {
   background-color: white; }
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0; }
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px; }
+
+.social-network a.github:hover svg,
+.social-network a.linkedin:hover svg,
+.social-network a.email:hover svg {
+  color: #1f7a8c; }
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 2em;
+  height: 2em;
+  font-size: 3em; }
+
+.social-circle li svg {
+  margin: 0;
+  line-height: 50px;
+  text-align: center; }
+
+.social-circle li a:hover svg,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s; }
+
+.social-circle svg {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s; }
+
+a {
+  background-color: #153243; }
+
+.linkedin {
+  color: #fff; }
+
+.github {
+  color: #fff; }
+
+#base {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background-color: #153243;
+  z-index: 999;
+  -webkit-clip-path: polygon(51% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(51% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  top: 430%;
+  box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75); }
+
+.polygon {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  align-content: center; }
+  .polygon svg {
+    display: inline-block;
+    position: relative; }
+  .polygon polygon {
+    width: 100%;
+    fill: #1f7a8c; }
+
+.back {
+  color: #bfdbf7;
+  text-decoration: underline; }

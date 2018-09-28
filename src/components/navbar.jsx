@@ -34,11 +34,8 @@ export default class Navsection extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light " id="mainNav">
+        <nav className="navbar navbar-expand-lg navbar-light" id="mainNav">
           <div className="container">
-            <a className="navbar-brand js-scroll-trigger" href="#page-top">
-              Home
-            </a>
             <button
               className="navbar-toggler navbar-toggler-right"
               type="button"
@@ -58,13 +55,18 @@ export default class Navsection extends React.Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="#portfolio">
+                  <a className="nav-link js-scroll-trigger" href="#projects">
                     Project
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link js-scroll-trigger" href="#contact">
                     Contact
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link js-scroll-trigger" href="CV">
+                    Download CV
                   </a>
                 </li>
               </ul>

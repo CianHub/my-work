@@ -6,7 +6,7 @@ export default class Jumbosection extends Component {
   state = {};
   render() {
     return (
-      <div className="jumbosection text-center ">
+      <section className="jumbosection text-center ">
         <div className="container">
           <Particles
             className="jumbo-animation"
@@ -140,7 +140,7 @@ export default class Jumbosection extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

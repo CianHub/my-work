@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Fade from "react-reveal/Fade";
+import Jump from "react-reveal/Jump";
+
 import { Progress } from "reactstrap";
 
 class Aboutsection extends Component {
   state = {};
   render() {
     return (
-      <section className="aboutsection">
+      <section className="aboutsection" id="about">
         <div className="container about-header">
           <div className="row">
             <div className="col-lg-12 text-center">
@@ -96,6 +98,10 @@ class Aboutsection extends Component {
                   based roles. I like to create dynamic, user-friendly web
                   applications and continue to improve my abilities.
                 </p>
+                <br />{" "}
+                <a href="#cv" className="btn btn-info" target="_blank">
+                  Download My CV
+                </a>
               </div>
             </div>
           </Fade>

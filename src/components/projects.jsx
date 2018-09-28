@@ -6,7 +6,7 @@ class Projectsection extends Component {
   state = {};
   render() {
     return (
-      <section className="projectsection">
+      <section className="projectsection" id="projects">
         <Fade left>
           <div className="container about-header">
             <div className="row">
@@ -31,16 +31,29 @@ class Projectsection extends Component {
                   <div className="card-body">
                     <h5 className="card-title">Issue Tracker App</h5>
                     <p className="card-text text-muted">
-                      Technologies Used: Bootstrap, JavaScript, jQuery, Django,
-                      Heroku, HighCharts.js, PostgreSQL
+                      Technologies Used: HTML, CSS, Bootstrap, JavaScript,
+                      jQuery, Django, Heroku, HighCharts, PostgreSQL
                     </p>
-                    <a
-                      href="https://issue-tracker-cian.herokuapp.com/"
-                      className="btn btn-success"
-                      target="_blank"
-                    >
-                      View Project
-                    </a>
+                    <ul className="social-network ">
+                      <li>
+                        <a
+                          href="https://issue-tracker-cian.herokuapp.com/"
+                          className="btn btn-success"
+                          target="_blank"
+                        >
+                          View Project
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/CianHub/issue-tracker"
+                          className="github btn btn-info"
+                          title="Github"
+                        >
+                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -56,16 +69,29 @@ class Projectsection extends Component {
                   <div className="card-body">
                     <h5 className="card-title">Digital Cookbook</h5>
                     <p className="card-text text-muted">
-                      Technologies Used: Bootstrap, JavaScript, jQuery, Flask,
-                      Heroku, PyMongo, MongoDB
+                      Technologies Used: HTML, CSS, Bootstrap, JavaScript,
+                      jQuery, Flask, Heroku, PyMongo, MongoDB
                     </p>
-                    <a
-                      href="https://online-cookbook-project.herokuapp.com/"
-                      className="btn btn-success"
-                      target="_blank"
-                    >
-                      View Project
-                    </a>
+                    <ul className="social-network ">
+                      <li>
+                        <a
+                          href="https://online-cookbook-project.herokuapp.com/"
+                          className="btn btn-success"
+                          target="_blank"
+                        >
+                          View Project
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/CianHub/digital-cookbook"
+                          className="github btn btn-info"
+                          title="Github"
+                        >
+                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -81,16 +107,30 @@ class Projectsection extends Component {
                   <div className="card-body">
                     <h5 className="card-title">Riddle Me This</h5>
                     <p className="card-text text-muted">
-                      Technologies Used: Bootstrap, JavaScript, jQuery, Flask,
-                      Heroku, JSON
+                      Technologies Used: HTML, CSS, Bootstrap, JavaScript,
+                      jQuery, Flask, Heroku, JSON
+                      <br />
                     </p>
-                    <a
-                      href="https://riddle-me-this-game.herokuapp.com/"
-                      className="btn btn-success"
-                      target="_blank"
-                    >
-                      View Project
-                    </a>
+                    <ul className="social-network ">
+                      <li>
+                        <a
+                          href="https://riddle-me-this-game.herokuapp.com/"
+                          className="btn btn-success"
+                          target="_blank"
+                        >
+                          View Project
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/CianHub/guessing-game"
+                          className="github btn btn-info"
+                          title="Github"
+                        >
+                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -106,16 +146,28 @@ class Projectsection extends Component {
                   <div className="card-body">
                     <h5 className="card-title">SIMON Memory Game</h5>
                     <p className="card-text text-muted">
-                      Technologies Used: HTML, CSS, JavaScript, jQuery, GitHub
-                      Pages,
+                      Technologies Used: HTML, CSS, JavaScript, jQuery
                     </p>
-                    <a
-                      href="https://cianhub.github.io/memory-game/"
-                      className="btn btn-success"
-                      target="_blank"
-                    >
-                      View Project
-                    </a>
+                    <ul className="social-network ">
+                      <li>
+                        <a
+                          href="https://cianhub.github.io/memory-game/"
+                          className="btn btn-success"
+                          target="_blank"
+                        >
+                          View Project
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/CianHub/memory-game"
+                          className="github btn btn-info"
+                          title="Github"
+                        >
+                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -131,16 +183,29 @@ class Projectsection extends Component {
                   <div className="card-body">
                     <h5 className="card-title">Band Website</h5>
                     <p className="card-text text-muted">
-                      Technologies Used: Bootstrap, JavaScript, jQuery, Github
-                      Pages
+                      Technologies Used: HTML, CSS, Bootstrap, JavaScript,
+                      jQuery
                     </p>
-                    <a
-                      href="https://cianhub.github.io/the-monkees-website/"
-                      className="btn btn-success"
-                      target="_blank"
-                    >
-                      View Project
-                    </a>
+                    <ul className="social-network ">
+                      <li>
+                        <a
+                          href="https://cianhub.github.io/the-monkees-website/"
+                          className="btn btn-success"
+                          target="_blank"
+                        >
+                          View Project
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/CianHub/the-monkees-website"
+                          className="github btn btn-info"
+                          title="Github"
+                        >
+                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -156,16 +221,28 @@ class Projectsection extends Component {
                   <div className="card-body">
                     <h5 className="card-title">JavaScript Piano</h5>
                     <p className="card-text text-muted">
-                      Technologies Used: HTML5, CSS3, Bootstrap, JavaScript,
-                      Audio
+                      Technologies Used: HTML, CSS, Bootstrap, JavaScript, Audio
                     </p>
-                    <a
-                      href="https://cianhub.github.io/javascript-piano/"
-                      className="btn btn-success"
-                      target="_blank"
-                    >
-                      View Project
-                    </a>
+                    <ul className="social-network ">
+                      <li>
+                        <a
+                          href="https://cianhub.github.io/javascript-piano/"
+                          className="btn btn-success"
+                          target="_blank"
+                        >
+                          View Project
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/CianHub/javascript-piano"
+                          className="github btn btn-info"
+                          title="Github"
+                        >
+                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -181,16 +258,29 @@ class Projectsection extends Component {
                   <div className="card-body">
                     <h5 className="card-title">Weather Finder</h5>
                     <p className="card-text text-muted">
-                      Technologies Used: HTML5, CSS3, Bootstrap, JavaScript,
+                      Technologies Used: HTML, CSS, Bootstrap, JavaScript,
                       SASS/SCSS, React
                     </p>
-                    <a
-                      href="https://cianhub.github.io/weather-finder-app/"
-                      className="btn btn-success"
-                      target="_blank"
-                    >
-                      View Project
-                    </a>
+                    <ul className="social-network ">
+                      <li>
+                        <a
+                          href="https://cianhub.github.io/weather-finder-app/"
+                          className="btn btn-success"
+                          target="_blank"
+                        >
+                          View Project
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/CianHub/weather-finder-app"
+                          className="github btn btn-info"
+                          title="Github"
+                        >
+                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -206,16 +296,29 @@ class Projectsection extends Component {
                   <div className="card-body">
                     <h5 className="card-title">Simple JS Animation</h5>
                     <p className="card-text text-muted">
-                      Technologies Used: HTML5, CSS3, Particle.js, JavaScript,
+                      Technologies Used: HTML, CSS, Particle.js, JavaScript,
                       SASS/SCSS, React
                     </p>
-                    <a
-                      href="https://cianhub.github.io/react-particlejs-animation/"
-                      className="btn btn-success"
-                      target="_blank"
-                    >
-                      View Project
-                    </a>
+                    <ul className="social-network ">
+                      <li>
+                        <a
+                          href="https://cianhub.github.io/react-particlejs-animation/"
+                          className="btn btn-success"
+                          target="_blank"
+                        >
+                          View Project
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/CianHub/react-particlejs-animation"
+                          className="github btn btn-info"
+                          title="Github"
+                        >
+                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -231,16 +334,29 @@ class Projectsection extends Component {
                   <div className="card-body">
                     <h5 className="card-title">JavaScript Clock</h5>
                     <p className="card-text text-muted">
-                      Technologies Used: HTML5, CSS3, JavaScript <br />
+                      Technologies Used: HTML, CSS, JavaScript <br />
                       <br />
                     </p>
-                    <a
-                      href="https://cianhub.github.io/javascript-clock/"
-                      className="btn btn-success"
-                      target="_blank"
-                    >
-                      View Project
-                    </a>
+                    <ul className="social-network ">
+                      <li>
+                        <a
+                          href="https://cianhub.github.io/javascript-clock/"
+                          className="btn btn-success"
+                          target="_blank"
+                        >
+                          View Project
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/CianHub/javascript-clock"
+                          className="github btn btn-info"
+                          title="Github"
+                        >
+                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>

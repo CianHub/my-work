@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink
 } from "reactstrap";
+import Favicon from "react-favicon";
 
 export default class Navsection extends React.Component {
   // Sets the class as the default export

@@ -89,11 +89,12 @@ class Aboutsection extends Component {
                   src="https://i.postimg.cc/NfRVTRBD/image.jpg"
                 />
                 <h3>Who?</h3>
+                <hr className="my-4" />
                 <p className="text-muted mb-0">
                   I'm a highly focused web developer with several years of
                   diverse experience in a variety of digital media and design
-                  based roles. <br /> I like to create dynamic, user-friendly
-                  web applications and continue to improve my abilities.
+                  based roles. I like to create dynamic, user-friendly web
+                  applications and continue to improve my abilities.
                 </p>
               </div>
             </div>
@@ -103,10 +104,12 @@ class Aboutsection extends Component {
         <div className="container about-progress-bars ">
           <Fade left>
             <div className="row">
-              <div className="col-lg text-center">
+              <div className="col-lg">
                 <p className="text-muted mb-0">HTML</p>
                 <Progress multi>
-                  <Progress className="bar" bar animated value="90" />
+                  <Progress value="90" className="bar" bar animated>
+                    <span className="title">90%</span>
+                  </Progress>
                 </Progress>
               </div>
             </div>
@@ -114,10 +117,12 @@ class Aboutsection extends Component {
           </Fade>
           <Fade left>
             <div className="row">
-              <div className="col-lg text-center">
+              <div className="col-lg ">
                 <p className="text-muted mb-0">SASS/SCSS</p>
                 <Progress multi>
-                  <Progress bar animated value="75" />
+                  <Progress bar animated value="75">
+                    <span className="title">75%</span>
+                  </Progress>
                 </Progress>
               </div>
             </div>
@@ -125,10 +130,12 @@ class Aboutsection extends Component {
           </Fade>
           <Fade left>
             <div className="row">
-              <div className="col-lg text-center">
+              <div className="col-lg">
                 <p className="text-muted mb-0">JavaScript</p>
                 <Progress multi>
-                  <Progress bar animated value="80" />
+                  <Progress bar animated value="80">
+                    <span className="title">80%</span>
+                  </Progress>
                 </Progress>
               </div>
             </div>
@@ -136,10 +143,12 @@ class Aboutsection extends Component {
           </Fade>
           <Fade left>
             <div className="row">
-              <div className="col-lg text-center">
+              <div className="col-lg">
                 <p className="text-muted mb-0">React</p>
                 <Progress multi>
-                  <Progress bar animated value="70" />
+                  <Progress bar animated value="70">
+                    <span className="title">70%</span>
+                  </Progress>
                 </Progress>
               </div>
             </div>
@@ -147,10 +156,12 @@ class Aboutsection extends Component {
           </Fade>
           <Fade left>
             <div className="row">
-              <div className="col-lg text-center">
+              <div className="col-lg ">
                 <p className="text-muted mb-0">Photoshop</p>
                 <Progress multi>
-                  <Progress bar animated value="60" />
+                  <Progress bar animated value="60">
+                    <span className="title">60%</span>
+                  </Progress>
                 </Progress>
               </div>
             </div>
@@ -158,10 +169,12 @@ class Aboutsection extends Component {
           </Fade>
           <Fade left>
             <div className="row">
-              <div className="col-lg text-center">
+              <div className="col-lg">
                 <p className="text-muted mb-0">Python</p>
                 <Progress multi>
-                  <Progress bar animated value="80" />
+                  <Progress bar animated value="80">
+                    <span className="title">80%</span>
+                  </Progress>
                 </Progress>
               </div>
             </div>
@@ -169,10 +182,12 @@ class Aboutsection extends Component {
           </Fade>
           <Fade left>
             <div className="row">
-              <div className="col-lg text-center">
+              <div className="col-lg ">
                 <p className="text-muted mb-0">Django</p>
                 <Progress multi>
-                  <Progress bar animated value="70" />
+                  <Progress bar animated value="70">
+                    <span className="title">70%</span>
+                  </Progress>
                 </Progress>
               </div>
             </div>
@@ -180,12 +195,14 @@ class Aboutsection extends Component {
           </Fade>
           <Fade left>
             <div className="row">
-              <div className="col-lg text-center">
+              <div className="col-lg ">
                 <p className="text-muted mb-0">
                   Databases (MongoDB, PostgreSQL, MySQL)
                 </p>
                 <Progress multi>
-                  <Progress bar animated value="65" />
+                  <Progress bar animated value="65">
+                    <span className="title">65%</span>
+                  </Progress>
                 </Progress>
               </div>
             </div>

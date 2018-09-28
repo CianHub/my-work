@@ -27,6 +27,27 @@ body {
   padding-top: 5em;
   height: 100%;
   background-color: $white;
+  padding-bottom: 2em;
+}
+
+.projectsection {
+  padding-top: 5em;
+  height: 100%;
+  background-color: $gray-200;
+  padding-bottom: 2em;
+}
+
+.footersection {
+  padding-top: 5em;
+  height: 100%;
+  background-color: $black;
+
+  padding-bottom: 5em;
+}
+.socialsection {
+  padding-top: 5em;
+  height: 100%;
+  background-color: $black;
   padding-bottom: 5em;
 }
 
@@ -140,6 +161,7 @@ nav {
     }
   }
 }
+
 //.....Jumbosection
 
 #jumbo {
@@ -231,4 +253,58 @@ img {
   border: 10px solid $black;
   box-sizing: border-box;
   box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75);
+}
+
+.about-cian {
+  padding-right: 2em;
+}
+
+//.....Projects Section
+.progress-bar {
+  width: 0;
+  animation: progress 1.5s ease-in-out forwards;
+
+  .title {
+    opacity: 0;
+    animation: show 0.35s forwards ease-in-out 0.5s;
+  }
+}
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.img-mask {
+  background-color: white;
+  opacity: 0;
+  transition: all 0.5s;
+  z-index: 99;
+}
+.img-mask:hover {
+  opacity: 100;
+}
+
+//.....Footer
+label {
+  color: $white;
+}
+
+.footer-header {
+  color: white;
+}
+.white-hr {
+  background-color: white;
 }

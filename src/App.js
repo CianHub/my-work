@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import "./App.css";
 import Navsection from "./components/navbar";
 import Jumbosection from "./components/jumbotron";
+import Socialsection from "./components/social";
+import Footersection from "./components/footer";
+import Projectsection from "./components/projects";
 import Aboutsection from "./components/about";
 import Fade from "react-reveal/Fade";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -22,10 +25,11 @@ class App extends Component {
         <Navsection />
         <Jumbosection />
         <Fade bottom>
-          <div className="test">
-            <Aboutsection />
-          </div>
+          <Aboutsection />
         </Fade>
+        <Projectsection />
+        <Footersection />
+        <Socialsection />
       </div>
     );
   }

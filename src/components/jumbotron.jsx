@@ -126,7 +126,7 @@ export default class Jumbosection extends Component {
         <div className="jumbotron" id="jumbo">
           <div className="overlay container">
             <div className="jumbo-heading">
-              <h1 className="display-4" id="jumbo-text ">
+              <h1 className="" id="jumbo-text ">
                 Hi, I'm
                 <strong className="jumbo-name"> Cian O'Gralaigh</strong> <br />
                 and I'm a full-stack web developer.

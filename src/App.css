@@ -54,7 +54,7 @@ nav {
   background-color: #fff; }
   #mainNav .navbar-brand {
     font-weight: 700;
-    color: #db504a; }
+    color: #153243; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #db504a; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -209,15 +209,6 @@ img {
   to {
     opacity: 1; } }
 
-.img-mask {
-  background-color: white;
-  opacity: 0;
-  transition: all 0.5s;
-  z-index: 99; }
-
-.img-mask:hover {
-  opacity: 100; }
-
 label {
   color: #fff; }
 
@@ -241,6 +232,9 @@ ul.social-network li {
 .social-network a.linkedin:hover svg,
 .social-network a.email:hover svg {
   color: #1f7a8c; }
+
+.social-network a.project-icon:hover svg {
+  color: #fff; }
 
 .social-circle li a {
   display: inline-block;

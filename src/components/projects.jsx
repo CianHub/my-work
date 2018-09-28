@@ -47,10 +47,15 @@ class Projectsection extends Component {
                       <li>
                         <a
                           href="https://github.com/CianHub/issue-tracker"
-                          className="github btn btn-info"
+                          className="project-icon btn btn-info"
                           title="Github"
+                          target="_blank"
                         >
-                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                          <FontAwesomeIcon
+                            className=""
+                            icon={["fab", "github"]}
+                          />{" "}
+                          Code
                         </a>
                       </li>
                     </ul>
@@ -70,7 +75,7 @@ class Projectsection extends Component {
                     <h5 className="card-title">Digital Cookbook</h5>
                     <p className="card-text text-muted">
                       Technologies Used: HTML, CSS, Bootstrap, JavaScript,
-                      jQuery, Flask, Heroku, PyMongo, MongoDB
+                      jQuery, Flask, Heroku, PyMongo, MongoDB, Python
                     </p>
                     <ul className="social-network ">
                       <li>
@@ -85,10 +90,15 @@ class Projectsection extends Component {
                       <li>
                         <a
                           href="https://github.com/CianHub/digital-cookbook"
-                          className="github btn btn-info"
+                          className=" btn btn-info"
                           title="Github"
+                          target="_blank"
                         >
-                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                          <FontAwesomeIcon
+                            className="project-icon"
+                            icon={["fab", "github"]}
+                          />{" "}
+                          Code
                         </a>
                       </li>
                     </ul>
@@ -108,7 +118,7 @@ class Projectsection extends Component {
                     <h5 className="card-title">Riddle Me This</h5>
                     <p className="card-text text-muted">
                       Technologies Used: HTML, CSS, Bootstrap, JavaScript,
-                      jQuery, Flask, Heroku, JSON
+                      jQuery, Python, Flask, Heroku, JSON
                       <br />
                     </p>
                     <ul className="social-network ">
@@ -124,10 +134,15 @@ class Projectsection extends Component {
                       <li>
                         <a
                           href="https://github.com/CianHub/guessing-game"
-                          className="github btn btn-info"
+                          className=" btn btn-info"
                           title="Github"
+                          target="_blank"
                         >
-                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                          <FontAwesomeIcon
+                            className="project-icon"
+                            icon={["fab", "github"]}
+                          />{" "}
+                          Code
                         </a>
                       </li>
                     </ul>
@@ -147,6 +162,8 @@ class Projectsection extends Component {
                     <h5 className="card-title">SIMON Memory Game</h5>
                     <p className="card-text text-muted">
                       Technologies Used: HTML, CSS, JavaScript, jQuery
+                      <br />
+                      <br />
                     </p>
                     <ul className="social-network ">
                       <li>
@@ -161,10 +178,15 @@ class Projectsection extends Component {
                       <li>
                         <a
                           href="https://github.com/CianHub/memory-game"
-                          className="github btn btn-info"
+                          className=" btn btn-info"
                           title="Github"
+                          target="_blank"
                         >
-                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                          <FontAwesomeIcon
+                            className="project-icon"
+                            icon={["fab", "github"]}
+                          />{" "}
+                          Code
                         </a>
                       </li>
                     </ul>
@@ -199,10 +221,15 @@ class Projectsection extends Component {
                       <li>
                         <a
                           href="https://github.com/CianHub/the-monkees-website"
-                          className="github btn btn-info"
+                          className=" btn btn-info"
                           title="Github"
+                          target="_blank"
                         >
-                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                          <FontAwesomeIcon
+                            className="project-icon"
+                            icon={["fab", "github"]}
+                          />{" "}
+                          Code
                         </a>
                       </li>
                     </ul>
@@ -236,10 +263,15 @@ class Projectsection extends Component {
                       <li>
                         <a
                           href="https://github.com/CianHub/javascript-piano"
-                          className="github btn btn-info"
+                          className=" btn btn-info"
                           title="Github"
+                          target="_blank"
                         >
-                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                          <FontAwesomeIcon
+                            className="project-icon"
+                            icon={["fab", "github"]}
+                          />{" "}
+                          Code
                         </a>
                       </li>
                     </ul>
@@ -274,10 +306,15 @@ class Projectsection extends Component {
                       <li>
                         <a
                           href="https://github.com/CianHub/weather-finder-app"
-                          className="github btn btn-info"
+                          className=" btn btn-info"
                           title="Github"
+                          target="_blank"
                         >
-                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                          <FontAwesomeIcon
+                            className="project-icon"
+                            icon={["fab", "github"]}
+                          />{" "}
+                          Code
                         </a>
                       </li>
                     </ul>
@@ -312,10 +349,15 @@ class Projectsection extends Component {
                       <li>
                         <a
                           href="https://github.com/CianHub/react-particlejs-animation"
-                          className="github btn btn-info"
+                          className=" btn btn-info"
                           title="Github"
+                          target="_blank"
                         >
-                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                          <FontAwesomeIcon
+                            className="project-icon"
+                            icon={["fab", "github"]}
+                          />{" "}
+                          Code
                         </a>
                       </li>
                     </ul>
@@ -350,10 +392,15 @@ class Projectsection extends Component {
                       <li>
                         <a
                           href="https://github.com/CianHub/javascript-clock"
-                          className="github btn btn-info"
+                          className=" btn btn-info"
                           title="Github"
+                          target="_blank"
                         >
-                          <FontAwesomeIcon icon={["fab", "github"]} /> Code
+                          <FontAwesomeIcon
+                            className="project-icon"
+                            icon={["fab", "github"]}
+                          />{" "}
+                          Code
                         </a>
                       </li>
                     </ul>

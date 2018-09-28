@@ -34,8 +34,11 @@ export default class Navsection extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light" id="mainNav">
-          <div className="container">
+        <nav className="navbar navbar-expand-lg navbar-light " id="mainNav">
+          <div className="container mx-auto ">
+            <a className="navbar-brand" href="#">
+              Cian's Work
+            </a>
             <button
               className="navbar-toggler navbar-toggler-right"
               type="button"
@@ -47,7 +50,7 @@ export default class Navsection extends React.Component {
             >
               <span className="navbar-toggler-icon" />
             </button>
-            <div className="collapse navbar-collapse" id="navbarResponsive">
+            <div className="collapse navbar-collapse " id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                   <a className="nav-link js-scroll-trigger" href="#about">
@@ -65,7 +68,11 @@ export default class Navsection extends React.Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="CV">
+                  <a
+                    className="nav-link js-scroll-trigger"
+                    href="https://drive.google.com/file/d/1XjSEkJNjIpcjNdtNM3osbvoj3HVqUCIb/view?usp=sharing"
+                    target="_blank"
+                  >
                     Download CV
                   </a>
                 </li>

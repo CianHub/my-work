@@ -91,7 +91,7 @@ nav {
   background-color: $white;
   .navbar-brand {
     font-weight: 700;
-    color: $primary;
+    color: $black;
     &:focus,
     &:hover {
       color: darken($primary, 0.1);
@@ -294,16 +294,6 @@ img {
   }
 }
 
-.img-mask {
-  background-color: white;
-  opacity: 0;
-  transition: all 0.5s;
-  z-index: 99;
-}
-.img-mask:hover {
-  opacity: 100;
-}
-
 //.....Contact
 
 label {
@@ -334,6 +324,9 @@ ul.social-network li {
   color: $color2;
 }
 
+.social-network a.project-icon:hover svg {
+  color: $white;
+}
 .social-circle li a {
   display: inline-block;
   position: relative;

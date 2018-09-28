@@ -99,7 +99,11 @@ class Aboutsection extends Component {
                   applications and continue to improve my abilities.
                 </p>
                 <br />{" "}
-                <a href="#cv" className="btn btn-info" target="_blank">
+                <a
+                  href="https://drive.google.com/file/d/1XjSEkJNjIpcjNdtNM3osbvoj3HVqUCIb/view?usp=sharing"
+                  className="btn btn-info"
+                  target="_blank"
+                >
                   Download My CV
                 </a>
               </div>

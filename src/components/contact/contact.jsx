@@ -1,21 +1,18 @@
 import React, { Component } from "react";
+//Import animations
 import Fade from "react-reveal/Fade";
+//Import components
+import Header from "../header";
+//Import icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Contactmain extends Component {
   state = {};
   render() {
     return (
-      <section className="contactsection" id="contact">
+      <section id="contact">
         <Fade left>
-          <div className="container contact-header">
-            <div className="row">
-              <div className="col-lg-12 text-center">
-                <hr className="my-4 white-hr" />
-                <br />
-              </div>
-            </div>
-          </div>
+          <Header text="" textId="contactText" hrId="contactHr" />
           <div className="container ">
             <div className="row text-center">
               <div className="col-md">

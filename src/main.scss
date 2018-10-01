@@ -24,7 +24,7 @@ body {
   font-family: $font !important;
 }
 
-.aboutsection {
+#about {
   padding-top: 5em;
   height: 100%;
   background-color: $white;
@@ -32,7 +32,7 @@ body {
   box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75);
 }
 
-.projectsection {
+#projects {
   padding-top: 5em;
   height: 100%;
   background-color: $gray-200;
@@ -40,7 +40,7 @@ body {
   box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75);
 }
 
-.contactsection {
+#contact {
   padding-top: 2em;
   height: 80%;
   background-color: $black;
@@ -202,20 +202,6 @@ nav {
 .jumbo-animation {
   background: linear-gradient(180deg, $black, $primary);
   background-size: 400% 400%;
-
-  /*animation: AnimationName 10s ease infinite;
-
-  @keyframes AnimationName {
-    0% {
-      background-position: 100% 0%;
-    }
-    50% {
-      background-position: 90%% 10%;
-    }
-    100% {
-      background-position: 100% 0%;
-    }
-  }*/
   position: fixed;
   top: 3.5em;
   right: 0;
@@ -415,4 +401,12 @@ a {
 .back {
   color: #bfdbf7;
   text-decoration: underline;
+}
+
+//.....Header
+
+#contactHr,
+#contactText {
+  color: $white;
+  background-color: $white;
 }

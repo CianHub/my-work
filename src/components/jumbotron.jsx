@@ -121,7 +121,7 @@ export default class Jumbosection extends Component {
               },
               retina_detect: true
             }}
-          />{" "}
+          />
         </div>
         <div className="jumbotron" id="jumbo">
           <div className="overlay container">
@@ -133,10 +133,12 @@ export default class Jumbosection extends Component {
               </h1>
             </div>
             <div className="jumbo-btn-div">
-              <button type="button" className="btn " id="jumbo-button">
-                See My Work {"  "}
-                <FontAwesomeIcon className="arrow" icon="arrow-right" />
-              </button>
+              <a href="#projects">
+                <button type="button" className="btn " id="jumbo-button">
+                  See My Work {"  "}
+                  <FontAwesomeIcon className="arrow" icon="arrow-right" />
+                </button>
+              </a>
             </div>
           </div>
         </div>

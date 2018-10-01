@@ -4,21 +4,21 @@ body {
   width: 100%;
   font-family: "Montserrat" !important; }
 
-.aboutsection {
+#about {
   padding-top: 5em;
   height: 100%;
   background-color: #fff;
   padding-bottom: 2em;
   box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75); }
 
-.projectsection {
+#projects {
   padding-top: 5em;
   height: 100%;
   background-color: #e9ecef;
   padding-bottom: 5em;
   box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75); }
 
-.contactsection {
+#contact {
   padding-top: 2em;
   height: 80%;
   background-color: #153243;
@@ -309,3 +309,8 @@ a {
 .back {
   color: #bfdbf7;
   text-decoration: underline; }
+
+#contactHr,
+#contactText {
+  color: #fff;
+  background-color: #fff; }

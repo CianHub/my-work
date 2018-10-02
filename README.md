@@ -47,6 +47,18 @@ The application has a couple of features:
 
   - The project uses **SASS** to preprocess the sites CSS.
 
+- [Jest](https://jestjs.io)
+
+  - The project uses **Jest** to test the React components.
+
+## Testing
+
+During the development of this application testing was conducted using Jest. The snapshots and tests can be found in the components folders.
+
+### Known Bugs
+
+Upon running the tests, Jest seems to be unable to find the FontAwesome icons for an unknown reason, although every test still passes. Despite this the FontAwesome components have been manually tested and are working perfectly as intended.
+
 ## Planning
 
 ### Site Map

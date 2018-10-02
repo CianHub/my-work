@@ -7,7 +7,11 @@ import Header from "../header/header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Contactmain extends Component {
-  state = {};
+  state = {
+    email: "mailto:cian@cianogralaigh.com",
+    linkedin: "https://www.linkedin.com/in/cian-o-gralaigh/",
+    github: "https://github.com/CianHub"
+  };
   render() {
     return (
       <section id="contact">
@@ -18,17 +22,13 @@ class Contactmain extends Component {
               <div className="col-md">
                 <ul className="horizontal-list social-circle">
                   <li>
-                    <a
-                      href="mailto:cian@cianogralaigh.com"
-                      className="email"
-                      title="email"
-                    >
+                    <a href={this.state.email} className="email" title="email">
                       <FontAwesomeIcon icon="envelope" />
                     </a>
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/cian-o-gralaigh/"
+                      href={this.state.linkedin}
                       className="linkedin"
                       title="linkedin"
                     >
@@ -37,7 +37,7 @@ class Contactmain extends Component {
                   </li>
                   <li>
                     <a
-                      href="https://github.com/CianHub"
+                      href={this.state.github}
                       className="github"
                       title="Github"
                     >

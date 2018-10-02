@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 //Import components
 import Header from "../header/header";
-import Card from "./card";
+import Card from "./card/card";
 
 class Projectsection extends Component {
   state = {

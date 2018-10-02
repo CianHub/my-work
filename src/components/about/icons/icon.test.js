@@ -2,7 +2,6 @@
 import React from "react";
 import Icon from "./icon";
 import renderer from "react-test-renderer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 test("Icon is rendered", () => {
   const component = renderer.create(

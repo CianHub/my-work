@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card is rendered 1`] = `
+<div
+  className="react-reveal col-lg-4 col-md-4 col-xs-6"
+  style={
+    Object {
+      "opacity": undefined,
+    }
+  }
+>
+  <div
+    className="card"
+  >
+    <img
+      alt="Riddle Me This"
+      className="img-fluid img-thumbnail"
+      src="https://i.postimg.cc/HkKvzMCV/Screen_Shot_2018-09-28_at_01.14.19.png"
+    />
+    <div
+      className="card-body"
+    >
+      <h5
+        className="card-title"
+      >
+        Riddle Me This
+      </h5>
+      <p
+        className="card-text text-muted"
+      >
+        Technologies Used: HTML, CSS, Bootstrap, JavaScript, jQuery, Python, Flask, Heroku, JSON
+      </p>
+      <ul
+        className="horizontal-list "
+      >
+        <li>
+          <a
+            className="btn btn-success"
+            href="https://riddle-me-this-game.herokuapp.com/"
+            target="_blank"
+          >
+            View Project
+          </a>
+        </li>
+        <li>
+          <a
+            className="project-icon btn btn-info"
+            href="https://github.com/CianHub/guessing-game"
+            target="_blank"
+            title="Github"
+          >
+             Code
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

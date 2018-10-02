@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jumbotron is rendered 1`] = `
+<section
+  className="text-center"
+  id="jumbotron"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="jumbo-animation"
+    >
+      <canvas
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="jumbotron"
+    id="jumbo"
+  >
+    <div
+      className="overlay container"
+    >
+      <div
+        className="jumbo-heading"
+      >
+        <h1
+          className=""
+          id="jumbo-text "
+        >
+          Hi, I'm
+          <strong
+            className="jumbo-name"
+          >
+             Cian O'Gralaigh
+          </strong>
+           
+          <br />
+          and I'm a full-stack web developer.
+        </h1>
+      </div>
+      <div
+        className="jumbo-btn-div"
+      >
+        <a
+          href="#projects"
+        >
+          <button
+            className="btn "
+            id="jumbo-button"
+            type="button"
+          >
+            See My Work 
+              
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+`;

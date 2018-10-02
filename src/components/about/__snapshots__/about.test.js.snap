@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Aboutsection is rendered 1`] = `
+exports[`Aboutsection is rendered correctly with no errors 1`] = `
 <section
   id="about"
 >

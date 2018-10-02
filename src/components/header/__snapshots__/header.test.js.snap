@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon is rendered 1`] = `
+<div
+  className="container header"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-12 text-center"
+    >
+      <h2
+        className="section-heading"
+        id="testID"
+      >
+        I'm the text
+      </h2>
+      <hr
+        className="my-4"
+        id="testHR"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Icon is rendered with white coloring 1`] = `
+<div
+  className="container header"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-12 text-center"
+    >
+      <h2
+        className="section-heading"
+        id="aboutText"
+      >
+        At Your Service
+      </h2>
+      <hr
+        className="my-4"
+        id="aboutHr"
+      />
+    </div>
+  </div>
+</div>
+`;

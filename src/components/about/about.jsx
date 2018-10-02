@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 //Import components
 import Header from "../header/header";
-import Profile from "./profile";
-import Bar from "./bar";
-import Icon from "./icon";
+import Profile from "./profile/profile";
+import Bar from "./bars/bar";
+import Icon from "./icons/icon";
 //Import animations
 import Fade from "react-reveal/Fade";
 

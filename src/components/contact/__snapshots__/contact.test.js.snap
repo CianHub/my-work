@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact section is rendered 1`] = `
+<section
+  id="contact"
+>
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="container header"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-12 text-center"
+        >
+          <h2
+            className="section-heading"
+            id="contactText"
+          >
+            
+          </h2>
+          <hr
+            className="my-4"
+            id="contactHr"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="react-reveal container "
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row text-center"
+    >
+      <div
+        className="col-md"
+      >
+        <ul
+          className="horizontal-list social-circle"
+        >
+          <li>
+            <a
+              className="email"
+              href="mailto:cian@cianogralaigh.com"
+              title="email"
+            />
+          </li>
+          <li>
+            <a
+              className="linkedin"
+              href="https://www.linkedin.com/in/cian-o-gralaigh/"
+              title="linkedin"
+            />
+          </li>
+          <li>
+            <a
+              className="github"
+              href="https://github.com/CianHub"
+              title="Github"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p
+    className="react-reveal text-muted text-center"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    Cian O'Gralaigh©2018 
+    <br />
+    <br />
+    <a
+      className="back"
+      href="#jumbo"
+    >
+      Back To Top
+    </a>
+  </p>
+</section>
+`;

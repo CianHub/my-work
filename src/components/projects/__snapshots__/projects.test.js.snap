@@ -1,0 +1,547 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project section is rendered 1`] = `
+<section
+  id="projects"
+>
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="container header"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-12 text-center"
+        >
+          <h2
+            className="section-heading"
+            id="projectsText"
+          >
+            Projects
+          </h2>
+          <hr
+            className="my-4"
+            id="projectsHr"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="react-reveal container"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="react-reveal col-lg-4 col-md-4 col-xs-6"
+        style={
+          Object {
+            "opacity": undefined,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Issue Tracker"
+            className="img-fluid img-thumbnail"
+            src="https://i.postimg.cc/904JZNwz/Screen_Shot_2018-09-27_at_23.45.02.png"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Issue Tracker
+            </h5>
+            <p
+              className="card-text text-muted"
+            >
+              Technologies Used: HTML, CSS, Bootstrap, JavaScript, jQuery, Django, Heroku, HighCharts, PostgreSQL
+            </p>
+            <ul
+              className="horizontal-list "
+            >
+              <li>
+                <a
+                  className="btn btn-success"
+                  href="https://issue-tracker-cian.herokuapp.com/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+              </li>
+              <li>
+                <a
+                  className="project-icon btn btn-info"
+                  href="https://github.com/CianHub/issue-tracker"
+                  target="_blank"
+                  title="Github"
+                >
+                   Code
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="react-reveal col-lg-4 col-md-4 col-xs-6"
+        style={
+          Object {
+            "opacity": undefined,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Digital Cookbook"
+            className="img-fluid img-thumbnail"
+            src="https://i.postimg.cc/Y2fV7jQs/Screen_Shot_2018-09-28_at_01.12.45.png"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Digital Cookbook
+            </h5>
+            <p
+              className="card-text text-muted"
+            >
+              Technologies Used: HTML, CSS, Bootstrap, JavaScript,jQuery, Flask, Heroku, PyMongo, MongoDB, Python
+            </p>
+            <ul
+              className="horizontal-list "
+            >
+              <li>
+                <a
+                  className="btn btn-success"
+                  href="https://online-cookbook-project.herokuapp.com/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+              </li>
+              <li>
+                <a
+                  className="project-icon btn btn-info"
+                  href="https://github.com/CianHub/digital-cookbook"
+                  target="_blank"
+                  title="Github"
+                >
+                   Code
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="react-reveal col-lg-4 col-md-4 col-xs-6"
+        style={
+          Object {
+            "opacity": undefined,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Riddle Me This"
+            className="img-fluid img-thumbnail"
+            src="https://i.postimg.cc/HkKvzMCV/Screen_Shot_2018-09-28_at_01.14.19.png"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Riddle Me This
+            </h5>
+            <p
+              className="card-text text-muted"
+            >
+              Technologies Used: HTML, CSS, Bootstrap, JavaScript, jQuery, Python, Flask, Heroku, JSON
+            </p>
+            <ul
+              className="horizontal-list "
+            >
+              <li>
+                <a
+                  className="btn btn-success"
+                  href="https://riddle-me-this-game.herokuapp.com/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+              </li>
+              <li>
+                <a
+                  className="project-icon btn btn-info"
+                  href="https://github.com/CianHub/guessing-game"
+                  target="_blank"
+                  title="Github"
+                >
+                   Code
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="react-reveal col-lg-4 col-md-4 col-xs-6"
+        style={
+          Object {
+            "opacity": undefined,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="SIMON Memory Game"
+            className="img-fluid img-thumbnail"
+            src="https://i.postimg.cc/NfjNwDsK/Screen_Shot_2018-09-28_at_01.15.12.png"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              SIMON Memory Game
+            </h5>
+            <p
+              className="card-text text-muted"
+            >
+              Technologies Used: HTML, CSS, JavaScript, jQuery
+            </p>
+            <ul
+              className="horizontal-list "
+            >
+              <li>
+                <a
+                  className="btn btn-success"
+                  href="https://cianhub.github.io/memory-game/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+              </li>
+              <li>
+                <a
+                  className="project-icon btn btn-info"
+                  href="https://github.com/CianHub/memory-game"
+                  target="_blank"
+                  title="Github"
+                >
+                   Code
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="react-reveal col-lg-4 col-md-4 col-xs-6"
+        style={
+          Object {
+            "opacity": undefined,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Band Website"
+            className="img-fluid img-thumbnail"
+            src="https://i.postimg.cc/Z59VWqyZ/Screen_Shot_2018-09-28_at_01.15.57.png"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Band Website
+            </h5>
+            <p
+              className="card-text text-muted"
+            >
+              Technologies Used: HTML, CSS, Bootstrap, JavaScript, jQuery
+            </p>
+            <ul
+              className="horizontal-list "
+            >
+              <li>
+                <a
+                  className="btn btn-success"
+                  href="https://cianhub.github.io/the-monkees-website/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+              </li>
+              <li>
+                <a
+                  className="project-icon btn btn-info"
+                  href="https://github.com/CianHub/the-monkees-website"
+                  target="_blank"
+                  title="Github"
+                >
+                   Code
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="react-reveal col-lg-4 col-md-4 col-xs-6"
+        style={
+          Object {
+            "opacity": undefined,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="JavaScript Piano"
+            className="img-fluid img-thumbnail"
+            src="https://i.postimg.cc/PxH4VzVr/Screen_Shot_2018-09-28_at_01.17.07.png"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              JavaScript Piano
+            </h5>
+            <p
+              className="card-text text-muted"
+            >
+              Technologies Used: HTML, CSS, Bootstrap, JavaScript, Audio
+            </p>
+            <ul
+              className="horizontal-list "
+            >
+              <li>
+                <a
+                  className="btn btn-success"
+                  href="https://cianhub.github.io/javascript-piano/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+              </li>
+              <li>
+                <a
+                  className="project-icon btn btn-info"
+                  href="https://github.com/CianHub/javascript-piano"
+                  target="_blank"
+                  title="Github"
+                >
+                   Code
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="react-reveal col-lg-4 col-md-4 col-xs-6"
+        style={
+          Object {
+            "opacity": undefined,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Weather Finder"
+            className="img-fluid img-thumbnail"
+            src="https://i.postimg.cc/nh8Q1VPn/Screen_Shot_2018-09-28_at_01.19.14.png"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Weather Finder
+            </h5>
+            <p
+              className="card-text text-muted"
+            >
+              Technologies Used: HTML, CSS, Bootstrap, JavaScript, SASS/SCSS, React
+            </p>
+            <ul
+              className="horizontal-list "
+            >
+              <li>
+                <a
+                  className="btn btn-success"
+                  href="https://cianhub.github.io/weather-finder-app/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+              </li>
+              <li>
+                <a
+                  className="project-icon btn btn-info"
+                  href="https://github.com/CianHub/javascript-piano"
+                  target="_blank"
+                  title="Github"
+                >
+                   Code
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="react-reveal col-lg-4 col-md-4 col-xs-6"
+        style={
+          Object {
+            "opacity": undefined,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="React and Particle.js Animation"
+            className="img-fluid img-thumbnail"
+            src="https://i.postimg.cc/9Xr1fpRK/Screen_Shot_2018-09-28_at_01.20.23.png"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              React and Particle.js Animation
+            </h5>
+            <p
+              className="card-text text-muted"
+            >
+              Technologies Used: HTML, CSS, Particles, JavaScript, SASS/SCSS, React
+            </p>
+            <ul
+              className="horizontal-list "
+            >
+              <li>
+                <a
+                  className="btn btn-success"
+                  href="https://cianhub.github.io/react-particlejs-animation/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+              </li>
+              <li>
+                <a
+                  className="project-icon btn btn-info"
+                  href="https://github.com/CianHub/react-particlejs-animation"
+                  target="_blank"
+                  title="Github"
+                >
+                   Code
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="react-reveal col-lg-4 col-md-4 col-xs-6"
+        style={
+          Object {
+            "opacity": undefined,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Animated Vanilla JavaScript Clock"
+            className="img-fluid img-thumbnail"
+            src="https://i.postimg.cc/zfxSzbJq/Screen_Shot_2018-09-28_at_01.21.38.png"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Animated Vanilla JavaScript Clock
+            </h5>
+            <p
+              className="card-text text-muted"
+            >
+              Technologies Used: HTML, CSS, JavaScript
+            </p>
+            <ul
+              className="horizontal-list "
+            >
+              <li>
+                <a
+                  className="btn btn-success"
+                  href="https://cianhub.github.io/javascript-clock/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+              </li>
+              <li>
+                <a
+                  className="project-icon btn btn-info"
+                  href="https://github.com/CianHub/javascript-clock"
+                  target="_blank"
+                  title="Github"
+                >
+                   Code
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

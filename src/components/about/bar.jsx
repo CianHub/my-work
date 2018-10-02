@@ -1,10 +1,11 @@
 import React from "react";
+//Import animation
 import Fade from "react-reveal/Fade";
-
 //Import progress bars
 import { Progress } from "reactstrap";
 
 const Bar = props => {
+  //Creates a bar
   return (
     <Fade left>
       <div className="row">

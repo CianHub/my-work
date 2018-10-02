@@ -1,6 +1,7 @@
 import React from "react";
 
-const Cian = props => {
+const Profile = props => {
+  //Creates a profile component
   return (
     <div className="col-lg text-center">
       <img className="img-cian img-responsive" src={props.img} />
@@ -15,4 +16,4 @@ const Cian = props => {
   );
 };
 
-export default Cian;
+export default Profile;

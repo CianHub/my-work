@@ -3,6 +3,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Icon = props => {
+  //Creates an icon component
   return (
     <div className="service-box mt-5 mx-auto">
       <FontAwesomeIcon

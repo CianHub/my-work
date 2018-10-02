@@ -1,169 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-body {
-  height: 100%;
-  width: 100%;
-  font-family: "Montserrat" !important; }
-
-#about {
-  padding-top: 5em;
-  height: 100%;
-  background-color: #fff;
-  padding-bottom: 2em;
-  box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75); }
-
-#projects {
-  padding-top: 5em;
-  height: 100%;
-  background-color: #e9ecef;
-  padding-bottom: 5em;
-  box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75); }
-
-#contact {
-  padding-top: 2em;
-  height: 80%;
-  background-color: #153243;
-  width: 100%;
-  padding-bottom: 2em; }
-
-.text-primary {
-  color: #db504a !important; }
-
-.btn {
-  font-weight: 700;
-  border: none;
-  border-radius: 300px; }
-
-.btn-xl {
-  padding: 1rem 2rem; }
-
-.btn-primary {
-  background-color: #db504a;
-  border-color: #db504a; }
-  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    color: #fff;
-    background-color: #d73b35 !important; }
-  .btn-primary:active, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
-
-nav {
-  z-index: 99;
-  padding-bottom: 1em; }
-
-#mainNav {
-  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff; }
-  #mainNav .navbar-brand {
-    font-weight: 700;
-    color: #153243; }
-    #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #db504a; }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    font-size: 0.9rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #212529; }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-      color: #db504a; }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
-    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-      color: #db504a !important;
-      background-color: transparent; }
-      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
-      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
-        background-color: transparent; }
-  @media (min-width: 992px) {
-    #mainNav {
-      border-color: transparent;
-      background-color: transparent; }
-      #mainNav .navbar-brand {
-        color: rgba(255, 255, 255, 0.7); }
-        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-          color: #fff; }
-      #mainNav .navbar-nav > li.nav-item > a.nav-link {
-        padding: 0.5rem 1rem; }
-      #mainNav .navbar-nav > li.nav-item > a.nav-link,
-      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: rgba(255, 255, 255, 0.7); }
-        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-          color: #fff; }
-      #mainNav.navbar-shrink {
-        border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-        background-color: #fff; }
-        #mainNav.navbar-shrink .navbar-brand {
-          color: #db504a; }
-          #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-            color: #db504a; }
-        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
-        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-          color: #212529; }
-          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
-          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #db504a; } }
-
-#jumbo {
-  position: relative;
-  color: #fff;
-  background-color: transparent;
-  z-index: 99;
-  height: 100vh;
-  display: flex;
-  align-items: center; }
-
-#jumbo-button {
-  background-color: transparent;
-  border: 2px solid #fff;
-  transition: all 0.5s;
-  color: white; }
-
-#jumbo-button:hover {
-  background-color: #fff;
-  color: black; }
-
-.arrow {
-  transition: all; }
-
-#jumbo-button:hover > .arrow {
-  transform: rotateZ(90deg); }
-
-.jumbo-btn-div {
-  padding-top: 2em; }
-
-.jumbo-name {
-  color: #ffffff; }
-
-.jumbo-animation {
-  background: linear-gradient(180deg, #153243, #db504a);
-  background-size: 400% 400%;
-  /*animation: AnimationName 10s ease infinite;
-
-  @keyframes AnimationName {
-    0% {
-      background-position: 100% 0%;
-    }
-    50% {
-      background-position: 90%% 10%;
-    }
-    100% {
-      background-position: 100% 0%;
-    }
-  }*/
-  position: fixed;
-  top: 3.5em;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  top: 0;
-  z-index: -1; }
-
-#jumbo-text {
-  font-size: 2em; }
-
-.jumbosection {
-  height: 100vh; }
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 .service-box {
   max-width: 400px; }
 
@@ -190,6 +31,13 @@ img {
 .about-cian {
   padding-right: 2em; }
 
+#about {
+  padding-top: 5em;
+  height: 100%;
+  background-color: #fff;
+  padding-bottom: 2em;
+  box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75); }
+
 .progress-bar {
   width: 0;
   animation: progress 1.5s ease-in-out forwards; }
@@ -209,31 +57,42 @@ img {
   to {
     opacity: 1; } }
 
+#projects {
+  padding-top: 5em;
+  height: 100%;
+  background-color: #e9ecef;
+  padding-bottom: 5em;
+  box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75); }
+
+#contact {
+  padding-top: 2em;
+  height: 80%;
+  background-color: #153243;
+  width: 100%;
+  padding-bottom: 2em; }
+
 label {
   color: #fff; }
 
 .contact-header {
   color: white; }
 
-.white-hr {
-  background-color: white; }
-
-ul.social-network {
+ul.horizontal-list {
   list-style: none;
   display: inline;
   margin-left: 0 !important;
   padding: 0; }
 
-ul.social-network li {
+ul.horizontal-list li {
   display: inline;
   margin: 0 5px; }
 
-.social-network a.github:hover svg,
-.social-network a.linkedin:hover svg,
-.social-network a.email:hover svg {
+.horizontal-list a.github:hover svg,
+.horizontal-list a.linkedin:hover svg,
+.horizontal-list a.email:hover svg {
   color: #1f7a8c; }
 
-.social-network a.project-icon:hover svg {
+.horizontal-list a.project-icon:hover svg {
   color: #fff; }
 
 .social-circle li a {
@@ -314,3 +173,134 @@ a {
 #contactText {
   color: #fff;
   background-color: #fff; }
+
+#jumbo {
+  position: relative;
+  color: #fff;
+  background-color: transparent;
+  z-index: 99;
+  height: 100vh;
+  display: flex;
+  align-items: center; }
+
+#jumbo-button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: all 0.5s;
+  color: white; }
+
+#jumbo-button:hover {
+  background-color: #fff;
+  color: black; }
+
+.jumbo-arrow {
+  transition: all; }
+
+#jumbo-button:hover > .jumbo-arrow {
+  transform: rotateZ(90deg); }
+
+.jumbo-btn-div {
+  padding-top: 2em; }
+
+.jumbo-name {
+  color: #ffffff; }
+
+.jumbo-animation {
+  background: linear-gradient(180deg, #153243, #db504a);
+  background-size: 400% 400%;
+  position: fixed;
+  top: 3.5em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  z-index: -1; }
+
+#jumbo-text {
+  font-size: 2em; }
+
+#jumbotron {
+  height: 100vh; }
+
+nav {
+  z-index: 99;
+  padding-bottom: 1em; }
+
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff; }
+  #mainNav .navbar-brand {
+    font-weight: 700;
+    color: #153243; }
+    #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #db504a; }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212529; }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+      color: #db504a; }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+      color: #db504a !important;
+      background-color: transparent; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+        background-color: transparent; }
+  @media (min-width: 992px) {
+    #mainNav {
+      border-color: transparent;
+      background-color: transparent; }
+      #mainNav .navbar-brand {
+        color: rgba(255, 255, 255, 0.7); }
+        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+          color: #fff; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link {
+        padding: 0.5rem 1rem; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: rgba(255, 255, 255, 0.7); }
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+          color: #fff; }
+      #mainNav.navbar-shrink {
+        border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+        background-color: #fff; }
+        #mainNav.navbar-shrink .navbar-brand {
+          color: #db504a; }
+          #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+            color: #db504a; }
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+          color: #212529; }
+          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+            color: #db504a; } }
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat" !important; }
+
+.text-primary {
+  color: #db504a !important; }
+
+.btn {
+  font-weight: 700;
+  border: none;
+  border-radius: 300px; }
+
+.btn-xl {
+  padding: 1rem 2rem; }
+
+.btn-primary {
+  background-color: #db504a;
+  border-color: #db504a; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #d73b35 !important; }
+  .btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }

@@ -1,0 +1,38 @@
+@import "../palette";
+
+//.....Projects Section
+
+.progress-bar {
+  width: 0;
+  animation: progress 1.5s ease-in-out forwards;
+
+  .title {
+    opacity: 0;
+    animation: show 0.35s forwards ease-in-out 0.5s;
+  }
+}
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#projects {
+  padding-top: 5em;
+  height: 100%;
+  background-color: $gray-200;
+  padding-bottom: 5em;
+  box-shadow: 10px 10px 30px -16px rgba(0, 0, 0, 0.75);
+}

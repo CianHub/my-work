@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import Navsection from "./components/navbar";
-import Jumbosection from "./components/jumbotron";
+import Navsection from "./components/navbar/navbar";
+import Jumbosection from "./components//jumbotron/jumbotron";
 import Contactsection from "./components/contact/contact";
 import Projectsection from "./components/projects/projects";
 import Aboutsection from "./components/about/about";
@@ -29,10 +29,13 @@ library.add(
 );
 
 class App extends Component {
+  state = {
+    icon: "http://www.iconj.com/ico/0/3/0394ny5uuj.ico"
+  };
   render() {
     return (
       <div className="App">
-        <Favicon url="http://www.iconj.com/ico/0/3/0394ny5uuj.ico" />
+        <Favicon url={this.state.icon} />
         <Navsection />
         <Jumbosection />
         <Fade bottom>

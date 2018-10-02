@@ -2,7 +2,7 @@ import React, { Component } from "react";
 //Import animations
 import Fade from "react-reveal/Fade";
 //Import components
-import Header from "../header";
+import Header from "../header/header";
 //Import icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -16,7 +16,7 @@ class Contactmain extends Component {
           <div className="container ">
             <div className="row text-center">
               <div className="col-md">
-                <ul className="social-network social-circle">
+                <ul className="horizontal-list social-circle">
                   <li>
                     <a
                       href="mailto:cian@cianogralaigh.com"

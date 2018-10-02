@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
 const Header = props => {
-  // Create a header component
+  // Creates a header component
 
   return (
-    <div className="container about-header">
+    <div className="container header">
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading" id={props.textId}>

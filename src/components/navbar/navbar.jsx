@@ -10,7 +10,7 @@ import {
 } from "reactstrap";
 
 export default class Navsection extends React.Component {
-  // Sets the class as the default export
+  // Creates the navsection
 
   constructor(props) {
     // Call component constructor function and reinitialise it
@@ -21,7 +21,9 @@ export default class Navsection extends React.Component {
 
     this.state = {
       // Initialise the state
-      isOpen: false
+      isOpen: false,
+      cv:
+        "https://drive.google.com/file/d/1XjSEkJNjIpcjNdtNM3osbvoj3HVqUCIb/view?usp=sharing"
     };
   }
   toggle() {
@@ -36,7 +38,7 @@ export default class Navsection extends React.Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-light " id="mainNav">
           <div className="container mx-auto ">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="#jumbotron">
               Cian's Work
             </a>
             <button
@@ -70,7 +72,7 @@ export default class Navsection extends React.Component {
                 <li className="nav-item">
                   <a
                     className="nav-link js-scroll-trigger"
-                    href="https://drive.google.com/file/d/1XjSEkJNjIpcjNdtNM3osbvoj3HVqUCIb/view?usp=sharing"
+                    href={this.state.cv}
                     target="_blank"
                   >
                     Download CV

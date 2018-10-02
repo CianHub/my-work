@@ -3,10 +3,10 @@ import Particles from "react-particles-js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class Jumbosection extends Component {
-  state = {};
+  //Create the Jumbotron section
   render() {
     return (
-      <section className="jumbosection text-center ">
+      <section className="text-center" id="jumbotron">
         <div className="container">
           <Particles
             className="jumbo-animation"
@@ -136,7 +136,7 @@ export default class Jumbosection extends Component {
               <a href="#projects">
                 <button type="button" className="btn " id="jumbo-button">
                   See My Work {"  "}
-                  <FontAwesomeIcon className="arrow" icon="arrow-right" />
+                  <FontAwesomeIcon className="jumbo-arrow" icon="arrow-right" />
                 </button>
               </a>
             </div>

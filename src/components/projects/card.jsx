@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Fade from "react-reveal/Fade";
 
 const Card = props => {
+  // Creates a card component
   return (
     <Fade left>
       <div className="col-lg-4 col-md-4 col-xs-6">
@@ -15,7 +16,7 @@ const Card = props => {
           <div className="card-body">
             <h5 className="card-title">{props.title}</h5>
             <p className="card-text text-muted">{props.text}</p>
-            <ul className="social-network ">
+            <ul className="horizontal-list ">
               <li>
                 <a
                   href={props.link}

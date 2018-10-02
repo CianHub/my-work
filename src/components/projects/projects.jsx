@@ -1,13 +1,8 @@
 import React, { Component } from "react";
-
-//Import icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 //Import animations
 import Fade from "react-reveal/Fade";
-
 //Import components
-import Header from "../header";
+import Header from "../header/header";
 import Card from "./card";
 
 class Projectsection extends Component {

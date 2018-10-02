@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 //Import components
-import Header from "../header";
-import Cian from "./cian";
+import Header from "../header/header";
+import Profile from "./profile";
 import Bar from "./bar";
 import Icon from "./icon";
 //Import animations
@@ -142,25 +142,27 @@ class Aboutsection extends Component {
     return (
       <section id="about">
         <Header text="At Your Service" textId="aboutText" hrId="aboutHr" />
+
         <div className="container about-icons">
           <div className="row">
             <Fade left>{this.makeIcons()}</Fade>
           </div>
         </div>
-
         <br />
+
         <div className="container about-cian align-center ">
-          <Fade left>
-            <div className="row">
-              <Cian
+          <div className="row">
+            <Fade left>
+              <Profile
                 img={this.state.img}
                 text={this.state.bio}
                 cv={this.state.cv}
               />
-            </div>
-          </Fade>
+            </Fade>
+          </div>
         </div>
         <br />
+
         <div className="container about-progress-bars ">{this.makeBars()}</div>
       </section>
     );

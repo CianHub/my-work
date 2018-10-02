@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon is rendered 1`] = `
+<div
+  className="col-lg text-center"
+>
+  <img
+    className="img-cian img-responsive"
+    src="https://i.postimg.cc/NfRVTRBD/image.jpg"
+  />
+  <h3>
+    Who?
+  </h3>
+  <hr
+    className="my-4"
+  />
+  <p
+    className="text-muted mb-0"
+  >
+    Hello World
+  </p>
+  <br />
+  <a
+    className="btn btn-info"
+    href="www.google.com"
+    target="_blank"
+  >
+    Download My CV
+  </a>
+</div>
+`;

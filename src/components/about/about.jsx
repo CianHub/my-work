@@ -97,7 +97,7 @@ class Aboutsection extends Component {
           data.push(
             //Add a bar per item to the array
             <Bar
-              key={x}
+              key={i}
               skill={barData[i][x].skill}
               percent={barData[i][x].percent}
             />
@@ -124,8 +124,9 @@ class Aboutsection extends Component {
           // Filters out extra arrays created by .entries()
           data.push(
             //Add a bar per item to the array
-            <div className="col-lg-3 col-md-6 text-center">
+            <div key={i} className="col-lg-3 col-md-6 text-center">
               <Icon
+                key={i}
                 icon={iconData[i][x].icon}
                 title={iconData[i][x].title}
                 text={iconData[i][x].text}

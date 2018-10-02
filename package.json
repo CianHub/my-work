@@ -30,10 +30,15 @@
     "build-css": "node-sass --include-path scss src/main.scss src/App.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.5.2",
     "node-sass": "^4.9.3",
     "nodemon": "^1.18.4"
   }
